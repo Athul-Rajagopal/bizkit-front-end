@@ -10,7 +10,7 @@ const BizCardDetailView = () => {
   useEffect(() => {
     const fetchBizCardDetails = async () => {
       try {
-        const response = await axios.get('https://9jdcxxr1-8000.inc1.devtunnels.ms/web-view/', {
+        const response = await axios.get('http://13.53.126.162/web-view/', {
           params: {
             bizcard_id, // Include bizcard_id as a query parameter
           },
